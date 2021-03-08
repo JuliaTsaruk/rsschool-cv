@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Roboto;
+    border: 7px solid black;
+}
+
+.flex{
+    display: flex;
+}
+
+.private-info{
+    width: 40%;
+    background-color: #e1d8cf;
+    padding: 100px 40px 0;
+}
+
+.image{
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.about-info__paragraph, .contact-info__list{
+    padding: 30px 0;
+}
+
+.contact-info__list > li{
+    padding-bottom: 10px;
+}
+
+
+.main-info{
+    width: 60%;
+    margin-top: 25px;
+}
+.main-info__education-experience, 
+.main-info__job-experience,
+.skills-info,
+.foreign-languages{
+    padding: 30px 50px 10px;
+}
+.main-info__about{
+    background-color: #373741;
+    text-align: center;
+    padding: 150px 0 40px 0;
+}
+
+.name{
+    color: #e1d8cf;
+    font-size: 34px;
+    margin: 0;
+}
+
+.position{
+    color: white;
+    font-size: 18px;
+}
+
+.heading{
+    display: block;
+    background-color: #373741;
+    color: #e1d8cf;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+span{
+    font-weight: bold;
+    font-size: 17px;
+    padding-bottom: 0px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+.skills >li{
+    border: 1px solid #e1d8cf;
+    background-color: #e1d8cf;
+    list-style: none;
+    width: fit-content;
+    padding: 3px 0;
+}
+
+.footer{
+    height: 150px;
+    width: 100%;
+}
+
+.footer-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+
+.github-img{
+    width: 130px;
+    height: 60px;
+}
+
+.rss-img{
+    width: 90px;
+    height: 40px;
+    padding-top: 19px;
+
+}
+
+
+/*.header{
+    width: 100%;
+    height: 60px;
+    background-color: blueviolet;
+    border-bottom: 7px solid black;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.main-info{
+    width: 45%; 
+}
+
+.about-person{
+    border: 7px solid cornflowerblue;
+    max-width: 85%;
+}
+
+.foto{
+    max-width: 50%;
+    max-height: 50%;
+    display: block;
+    border: 7px solid springgreen;
+    margin-bottom: 1px;
+}
+
+h1,h2{
+    padding-left: 25px;
+}
+
+.position{
+    font-size: 20px;
+}
+
+.personal-data{
+    border: 7px solid crimson;
+    margin: 1px 0;
+}
+
+.about-me{
+    padding: 0 25px ;
+}
+
+.contact-info{
+    border: 7px solid gold;
+    width: 75%;
+}
+.paragraph-title{
+    padding-left: 25px;
+}
+
+.contact-info >ul>li{
+    padding-bottom: 7px;
+}
+.experience-info{
+    width: 45%;
+}*/
